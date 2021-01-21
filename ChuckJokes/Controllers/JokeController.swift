@@ -22,7 +22,7 @@ class JokeController: BaseController {
     let button = UIButton()
     button.layer.backgroundColor = UIColor(red: 0, green: 0.478, blue: 1, alpha: 1).cgColor
     button.layer.cornerRadius = 17
-    button.setTitle("Load", for: .normal)
+    button.setTitle("LOAD", for: .normal)
     button.addTarget(self, action:  #selector(performLoad), for: .touchUpInside)
     return button
 }()
