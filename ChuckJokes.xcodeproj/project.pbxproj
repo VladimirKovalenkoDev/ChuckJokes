@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7188AB3BDEF0A6F337AC13F /* Pods_ChuckJokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13EB7877B6F16F2866F0C35 /* Pods_ChuckJokes.framework */; };
 		DDB07F9D25B994FA00ACF83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07F9C25B994FA00ACF83C /* AppDelegate.swift */; };
 		DDB07F9F25B994FA00ACF83C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07F9E25B994FA00ACF83C /* SceneDelegate.swift */; };
-		DDB07FA125B994FA00ACF83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FA025B994FA00ACF83C /* ViewController.swift */; };
-		DDB07FA425B994FA00ACF83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB07FA225B994FA00ACF83C /* Main.storyboard */; };
+		DDB07FA125B994FA00ACF83C /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FA025B994FA00ACF83C /* BaseController.swift */; };
 		DDB07FA625B994FE00ACF83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB07FA525B994FE00ACF83C /* Assets.xcassets */; };
 		DDB07FA925B994FE00ACF83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB07FA725B994FE00ACF83C /* LaunchScreen.storyboard */; };
+		DDB07FB225B9953A00ACF83C /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FB125B9953A00ACF83C /* JokeController.swift */; };
+		DDB07FB625B9954A00ACF83C /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FB525B9954A00ACF83C /* WebController.swift */; };
+		DDB07FB925B9958E00ACF83C /* JokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FB825B9958E00ACF83C /* JokeData.swift */; };
+		DDB07FBC25B9959A00ACF83C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FBB25B9959A00ACF83C /* Network.swift */; };
+		DDB07FC325B9989500ACF83C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07FC225B9989500ACF83C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD696A6C038F6F1468BCB916 /* Pods-ChuckJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckJokes.release.xcconfig"; path = "Target Support Files/Pods-ChuckJokes/Pods-ChuckJokes.release.xcconfig"; sourceTree = "<group>"; };
+		C13EB7877B6F16F2866F0C35 /* Pods_ChuckJokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckJokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F4C003D7723EB69200B59C /* Pods-ChuckJokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckJokes.debug.xcconfig"; path = "Target Support Files/Pods-ChuckJokes/Pods-ChuckJokes.debug.xcconfig"; sourceTree = "<group>"; };
 		DDB07F9925B994FA00ACF83C /* ChuckJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB07F9C25B994FA00ACF83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB07F9E25B994FA00ACF83C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDB07FA025B994FA00ACF83C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDB07FA325B994FA00ACF83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB07FA025B994FA00ACF83C /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		DDB07FA525B994FE00ACF83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB07FA825B994FE00ACF83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB07FAA25B994FE00ACF83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB07FB125B9953A00ACF83C /* JokeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
+		DDB07FB525B9954A00ACF83C /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		DDB07FB825B9958E00ACF83C /* JokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeData.swift; sourceTree = "<group>"; };
+		DDB07FBB25B9959A00ACF83C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DDB07FC225B9989500ACF83C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7188AB3BDEF0A6F337AC13F /* Pods_ChuckJokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDB152F213E5340DC61DF83C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13EB7877B6F16F2866F0C35 /* Pods_ChuckJokes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDB07F9025B994FA00ACF83C = {
 			isa = PBXGroup;
 			children = (
 				DDB07F9B25B994FA00ACF83C /* ChuckJokes */,
 				DDB07F9A25B994FA00ACF83C /* Products */,
+				FED741525D1AD1073DA7B0BF /* Pods */,
+				CDB152F213E5340DC61DF83C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,42 @@
 			children = (
 				DDB07F9C25B994FA00ACF83C /* AppDelegate.swift */,
 				DDB07F9E25B994FA00ACF83C /* SceneDelegate.swift */,
-				DDB07FA025B994FA00ACF83C /* ViewController.swift */,
-				DDB07FA225B994FA00ACF83C /* Main.storyboard */,
+				DDB07FC525B9994A00ACF83C /* Model */,
+				DDB07FC825B9995800ACF83C /* Controllers */,
 				DDB07FA525B994FE00ACF83C /* Assets.xcassets */,
 				DDB07FA725B994FE00ACF83C /* LaunchScreen.storyboard */,
 				DDB07FAA25B994FE00ACF83C /* Info.plist */,
 			);
 			path = ChuckJokes;
+			sourceTree = "<group>";
+		};
+		DDB07FC525B9994A00ACF83C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDB07FBB25B9959A00ACF83C /* Network.swift */,
+				DDB07FB825B9958E00ACF83C /* JokeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDB07FC825B9995800ACF83C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB07FA025B994FA00ACF83C /* BaseController.swift */,
+				DDB07FC225B9989500ACF83C /* TabBarController.swift */,
+				DDB07FB525B9954A00ACF83C /* WebController.swift */,
+				DDB07FB125B9953A00ACF83C /* JokeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FED741525D1AD1073DA7B0BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4C003D7723EB69200B59C /* Pods-ChuckJokes.debug.xcconfig */,
+				AD696A6C038F6F1468BCB916 /* Pods-ChuckJokes.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDB07FAD25B994FE00ACF83C /* Build configuration list for PBXNativeTarget "ChuckJokes" */;
 			buildPhases = (
+				27CB4D5894C0F5AA7B70C25C /* [CP] Check Pods Manifest.lock */,
 				DDB07F9525B994FA00ACF83C /* Sources */,
 				DDB07F9625B994FA00ACF83C /* Frameworks */,
 				DDB07F9725B994FA00ACF83C /* Resources */,
+				11A6CA5CB0AE5E4FF3D09C0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +180,65 @@
 			files = (
 				DDB07FA925B994FE00ACF83C /* LaunchScreen.storyboard in Resources */,
 				DDB07FA625B994FE00ACF83C /* Assets.xcassets in Resources */,
-				DDB07FA425B994FA00ACF83C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A6CA5CB0AE5E4FF3D09C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckJokes/Pods-ChuckJokes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckJokes/Pods-ChuckJokes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuckJokes/Pods-ChuckJokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CB4D5894C0F5AA7B70C25C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckJokes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDB07F9525B994FA00ACF83C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB07FA125B994FA00ACF83C /* ViewController.swift in Sources */,
+				DDB07FB225B9953A00ACF83C /* JokeController.swift in Sources */,
+				DDB07FC325B9989500ACF83C /* TabBarController.swift in Sources */,
+				DDB07FA125B994FA00ACF83C /* BaseController.swift in Sources */,
+				DDB07FB625B9954A00ACF83C /* WebController.swift in Sources */,
 				DDB07F9D25B994FA00ACF83C /* AppDelegate.swift in Sources */,
+				DDB07FB925B9958E00ACF83C /* JokeData.swift in Sources */,
+				DDB07FBC25B9959A00ACF83C /* Network.swift in Sources */,
 				DDB07F9F25B994FA00ACF83C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +246,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDB07FA225B994FA00ACF83C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDB07FA325B994FA00ACF83C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDB07FA725B994FE00ACF83C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +375,7 @@
 		};
 		DDB07FAE25B994FE00ACF83C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F4C003D7723EB69200B59C /* Pods-ChuckJokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +395,7 @@
 		};
 		DDB07FAF25B994FE00ACF83C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD696A6C038F6F1468BCB916 /* Pods-ChuckJokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
